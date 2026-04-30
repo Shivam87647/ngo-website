@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Goonj</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+     <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: -1px 18px 12px 3px #FDD831;">
+               <div class="container-xxl">
+
+                    <a class="navbar-brand" href="index.html">
+                         <img src="Images/Logo.png" alt="Logo" class="img-fluid" style="max-height: 80px;">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                         <ul
+                              class="navbar-nav ms-auto d-flex align-items-start align-items-lg-center justify-content-center">
+                              <li class="nav-item m-3 fs-6 fw-semibold">
+                                   <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item m-3 fs-6 fw-semibold">
+                                   <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item m-3 fs-6 fw-semibold">
+                                   <a class="nav-link" href="about.html">About Us</a>
+                              </li>
+                              <li
+                                   class="nav-item Donate fs-6 fw-semibold rounded-5 d-flex align-items-center justify-content-center my-3 m-lg-3">
+                                   <a class="nav-link d-flex" href="donate.html">
+                                        <img src="Images/RedHeart.png" alt="">
+                                        Donate</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+     </header>
+
+     <main>
+          <section class="col-12 text-center p-0">
+               <img src="https://www.cry.org/wp-content/themes/cry/images/impact-banner-2.jpg" class="w-100 img-fluid">
+               <h1 class="DonateCall fw-bolder mt-4 p-2">Help Children Thrive & Save Tax</h1>
+          </section>
+
+          <div class="container-xl">
+               <div class="row">
+                    <section class="col-12 col-lg-6 order-2 order-lg-1 pt-5 px-4">
+                         <h2 class="DonateCall text-center text-lg-start">Why Children?</h2>
+                         <p class="text-center text-lg-start">
+                              Across India, millions of children face daily challenges just to survive—access to
+                              education, proper nutrition, healthcare, and a safe environment remain out of reach for
+                              many.
+                              Poverty, child labor, and early marriage steal their childhood and potential. But
+                              together, <strong>we can change this</strong>.
+                         </p>
+                         <p class="text-center text-lg-start">
+                              At Goonj, we believe every child deserves a life full of opportunities, dignity, and hope.
+                              Through innovative initiatives and community-driven action, we work to ensure children not
+                              only survive but thrive.
+                              Your support can help build brighter futures for these young lives.
+                         </p>
+
+                         <h2 class="DonateCall text-center text-lg-start mt-5">Who We Are</h2>
+                         <p class="text-center text-lg-start">
+                              Goonj is a social enterprise dedicated to turning urban surplus into rural resources,
+                              addressing critical needs of underprivileged communities, especially children.
+                              Since our inception, we have impacted millions across India by focusing on long-term,
+                              sustainable change.
+                         </p>
+                         <p class="text-center text-lg-start">
+                              We work closely with communities, educators, and local authorities to address children’s
+                              needs—from education and clothing to healthcare.
+                              By transforming everyday urban resources into meaningful support, we empower children,
+                              families, and communities to thrive.
+                         </p>
+                    </section>
+
+
+                    <section class="col-12 col-lg-6 order-1 order-lg-2">
+                         <div class="donation-form m-5 p-4 bg-white rounded-5 shadow">
+                              <h2 class="DonateCall mb-4 text-center">Make a Donation</h2>
+                              <form>
+                                   <div class="mb-3">
+                                        <label for="name" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                             required>
+                                   </div>
+                                   <div class="mb-3">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email"
+                                             placeholder="Enter your email" required>
+                                   </div>
+                                   <div class="mb-3">
+                                        <label for="amount" class="form-label">Donation Amount (₹)</label>
+                                        <input type="number" class="form-control" id="amount" placeholder="Enter amount"
+                                             min="1" required>
+                                   </div>
+                                   <div class="mb-3">
+                                        <label for="payment" class="form-label">Payment Method</label>
+                                        <select class="form-select" id="payment" required>
+                                             <option>Select payment method</option>
+                                             <option value="upi">UPI</option>
+                                             <option value="bank-transfer">Debit Card</option>
+                                             <option value="credit-card">Credit Card</option>
+                                        </select>
+                                   </div>
+                                   <button type="submit" class="btn btn-success w-100">Donate Now</button>
+                              </form>
+                         </div>
+                    </section>
+               </div>
+          </div>
+
+          <section class="col-12 text-center p-0">
+               <img src="https://www.cry.org/wp-content/themes/cry/images/children-banner.jpg" class="w-100 img-fluid">
+          </section>
+
+          <section>
+               <h1 class="DonateCall text-center">Ensuring education for children</h1>
+               <p class="px-5 pt-3 text-center">At Goonj, we strongly believe that every child has the right to
+                    education. For years, we have been working to ensure that children from underprivileged communities
+                    can go to school, continue their studies, and build a future without facing barriers due to gender,
+                    caste, or economic background.</p>
+          </section>
+
+          <section class="col-12 text-center p-3">
+               <h1 class="DonateCall fs-3">Donate Now! Your one donation can save many futures.</h1>
+          </section>
+     </main>
+
+     <!-- Footer -->
+     <footer class="footer bg-dark text-light pt-5">
+          <div class="container-xxl">
+               <div class="row text-center text-lg-start">
+
+                    <div
+                         class="col-12 col-lg-3 mb-4 d-flex justify-content-center justify-content-lg-start align-items-center">
+                         <img src="Images/footer-logo.png" width="125" height="125">
+                         <!-- <h5 class="">Goonj..a voice, an effort</h5> -->
+                    </div>
+
+                    <div class="col-12 col-lg-3 mb-4">
+                         <h5 class="text-uppercase">Quick Links</h5>
+                         <ul class="list-unstyled">
+                              <li><a href="index.html" class="footer-link text-light text-decoration-none">Home</a></li>
+                              <li><a href="about.html" class="footer-link text-light text-decoration-none">About</a>
+                              </li>
+                              <li><a href="contact.html" class="footer-link text-light text-decoration-none">Contact
+                                        Us</a></li>
+                              <li><a href="donate.html" class="footer-link text-light text-decoration-none">Donate</a>
+                              </li>
+                         </ul>
+                    </div>
+
+                    <div class="col-12 col-lg-3 mb-4">
+                         <h5 class="text-uppercase">Contact</h5>
+                         <address class="mb-0">
+                              <p class="mb-1">Email: <a href="mailto:info@goonj.com"
+                                        class="text-light">info@goonj.com</a></p>
+                              <p class="mb-1">Phone: <a href="tel:+919115911500" class="text-light">+91 9115 9115 00</a>
+                              </p>
+                              <p class="mb-1">Location: Jaipur, India</p>
+                              <p>Timings: 10 am to 5 pm, Sunday closed</p>
+                         </address>
+                    </div>
+
+                    <div class="col-12 col-lg-3 mb-4">
+                         <h5 class="text-uppercase mb-3">Get In Touch</h5>
+                         <div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-4">
+                              <a href="https://www.facebook.com/">
+                                   <i class="fa-brands fa-facebook fa-2x"></i>
+                              </a>
+                              <a href="https://www.instagram.com/">
+                                   <i class="fa-brands fa-instagram fa-2x"></i>
+                              </a>
+                              <a href="https://x.com/Shivam_s200">
+                                   <i class="fa-brands fa-x-twitter fa-2x"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/in/shivam-singh-shekhawat-14826638a/">
+                                   <i class="fa-brands fa-linkedin fa-2x"></i>
+                              </a>
+                         </div>
+                    </div>
+               </div>
+
+               <hr class="border-secondary">
+
+               <div class="text-center pb-3">
+                    <p class="mb-0">&copy; 2025 Goonj.com. All rights reserved.</p>
+               </div>
+          </div>
+     </footer>
+     <div class="floating-controls">
+          <a href="index.html">
+               <button class="btn-help">Home</button>
+          </a>
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
