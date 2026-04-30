@@ -626,7 +626,7 @@ footer {
      width: 60px;
      height: 60px;
      font-weight: bold;
-     font-size: 1rem;
+     font-size: 14px;
      cursor: pointer;
      box-shadow: 0 4px 15px rgba(107, 212, 116, 0.4);
      transition: transform 0.3s;
