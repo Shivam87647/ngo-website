@@ -1,2 +1,3 @@
 - **Activity Note (2026-10-04 23:55)**: fix: resolve minor formatting and documentation typos
 - **Dev Entry (2026-10-06 10:00:01)**: style: improve code formatting, linting rules, and comments [#1]
+- **Activity Note (2026-10-10 23:55)**: docs: add implementation notes and architectural details
